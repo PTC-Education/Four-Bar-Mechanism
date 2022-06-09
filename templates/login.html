@@ -1,0 +1,19 @@
+<!doctype html>
+<form action="/config">
+    <label for="appkey">API Key:</label>
+    <input type="password" id="appkey" name="appkey" value={{APPKEY}}><br><br>
+    <label for="secretkey">Secret Key:</label>
+    <input type="password" id="secretkey" name="secretkey" value={{SECRETKEY}}><br><br>
+
+    <label for="did">DocumentId:</label>
+    <input type="text" id="did" name="did" value={{DID}}><br><br>
+    <label for="wid">WorkspaceId:</label>
+    <input type="text" id="wid" name="wid" value={{WID}}><br><br>
+    <label for="eid">ElementId:</label>
+    <input type="text" id="eid" name="eid" value={{EID}}><br><br>
+
+    <label for="step">Rotation step (in degree):</label>
+    <input type="text" id="step", name="step"><br><br>
+    
+    <input type="submit" value="Submit">
+</form>

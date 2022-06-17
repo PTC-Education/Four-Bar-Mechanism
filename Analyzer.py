@@ -109,8 +109,8 @@ def config():
     # Plot the path 
     fig = Figure()
     ax = fig.add_subplot(1,1,1)
-    ax.plot(input_x_pos, input_y_pos, label='Input')
-    ax.plot(output_x_pos, output_y_pos, label='Output')
+    ax.plot(input_x_pos, input_y_pos, label='Input', color='red')
+    ax.plot(output_x_pos, output_y_pos, label='Output', color='blue')
     ax.legend()
 
     output = io.BytesIO()

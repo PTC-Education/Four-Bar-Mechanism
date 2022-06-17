@@ -11,7 +11,7 @@ While you can experiment with this project through (1) the Jupyter notebook vers
 
 To integrate and use the Flask app in this project, please follow the following steps: 
 
-1. Make a copy to [this Onshape document](https://cad.onshape.com/documents/9956cf02c4db09c32d653307/w/a08b90943f6b539764b5c942/e/a3566547896a300e872e6e80).
+1. Make a copy to [this Onshape document](https://cad.onshape.com/documents/178816b0fa7fb384c9ef431c/w/e3249365341e3ffa779dd405/e/2fb4fc09356073df012869f5).
 2. Clone this repository to your local computer like you would do for any other GitHub repository. 
 3. If you are using an Onshape Enterprise account, open `Analyzer.py` and change the `base` URL on line 24 to the URL of your Enterprise account (e.g., `'https://ptc.onshape.com'`). 
 4. Follow the instructions of [section 2 of this guide](https://github.com/PTC-Education/Onshape-Integration-Guides/blob/main/API_Intro.md#2-generating-your-onshape-api-keys) to create your API keys if you have not done so. 
